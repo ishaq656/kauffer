@@ -27,12 +27,13 @@
   }
   body{
     box-sizing: border-box;
-width: 94.65592972%;
+width: 95.65592972%;
 margin-left: 2.269399707% ;
-margin-right: 2.049780381% ;
+margin-right: 2%;
 background-color: white;
 
   }
+  /*---------------------------------styling for hw=eader only----------------------------*/
   #keffer{
    
     width: 53%;
@@ -73,7 +74,7 @@ background-color: white;
       /*  gap:12%;*/
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: -1%;
+        margin-bottom: -1.3%;
       
         
     }
@@ -97,4 +98,140 @@ background-color: white;
     margin-top: -2.2%;
     /* line-height: 1.6; */
     letter-spacing: 0.06em;
+}
+/*---------------------------------styling for hw=eader only----------------------------*/
+
+/*---------------------------------styling for nav bar----------------------------*/
+nav{
+  
+  background-color: darkred;
+  box-sizing: border-box;
+
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content:end;
+  align-items: center;
+  margin-top: 1%;
+  color: white;
+  font-family: "Open Sans", sans-serif; 
+   font-weight: 500;
+   font-size: 130%;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+ }
+
+#hoss{
+  margin-right: 1.507%;
+ 
+  }
+  .huss{
+    padding: 1% 1.25%  ;
+  }
+.huss:hover{
+  background-color: darkslategray;}
+/*---------------------------------styling for nav bar ends----------------------------*/
+
+/*---------------------------------styling for main section----------------------------*/
+main{
+  background-color: lightgray;
+}
+.second_image_container{
+ width:50.35%;
+
+ margin-top: 2.89%;
+ margin-left: 2.9%;
+}
+.second_image_container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+  .mahan{
+    display: flex;
+    gap: 1.6%;
+  }
+  .complex{
+    margin-top: 2.89%;
+    background-image: url(form_bg.jpg);
+    width:42%;
+  
+      background-repeat: no-repeat;   /* ❌ no tiling */
+  background-size: cover; 
+  }
+  .complex h1{
+  background-color: darkred;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+ 
+.qqqq{
+  display: flex;
+  gap: 6%;
+}
+
+.question{
+    padding: 1% 1%;
+    background-color: darkred;
+    align-self: flex-start;
+}
+.complex h1 {
+    background-color: darkred;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    margin: 0%;
+    padding: 0%;
+  
+   
+}
+.spaan{
+
+  font-family: "Open Sans", sans-serif; 
+ font-weight: bold;
+ font-size: 144%;
+  margin-top: 2%;
+ 
+
+}
+.spaan p{
+  line-height: 125%;
+}
+#pagal{
+  font-family:"OpenSans", sans-serif;
+  font-weight: 900;
+  font-size: 145%;
+  -webkit-text-stroke: 0.04em;
+  color:purple;
+  letter-spacing: 0.05em;
+}
+.paragraph{
+    font-family: "Open Sans", sans-serif;
+    font-size: 130%;
+    letter-spacing: -0.06em;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+.seven{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.confidential{
+  display: flex;
+}
+
+.inputttt{
+  width: 74%;
+  height: 1.3em;
+  font-size: 120%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2%;
+
 }
